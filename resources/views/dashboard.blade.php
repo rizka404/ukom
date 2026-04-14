@@ -95,13 +95,7 @@
         <!-- SIDEBAR -->
         <div class="col-md-3 col-lg-2 sidebar">
 
-            <div class="position-relative d-inline-block mb-3">
-                <img src="user.png" class="profile-img">
-                <span class="notif-badge">4</span>
-            </div>
-
-            <h5 class="mb-0">Felica</h5>
-            <small class="text-light">felica@email.com</small>
+             <h3>SISTEM PENGADUAN SEKOLAH</h3>
 
             <div class="menu mt-5">
                 <a href="{{ route('dashboard') }}"
@@ -138,7 +132,7 @@
 
             <div class="divider"></div>
 
-            <h2 class="fw-bold">Selamat Datang, Felica</h2>
+            <h2 class="fw-bold">Selamat Datang</h2>
             <p class="text-muted fw-semibold">SMKN 4 KOTA TANGERANG</p>
 
             <div class="mt-4">

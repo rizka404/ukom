@@ -89,7 +89,6 @@
         .table thead {
             background-color: #d6d6d6;
         }
-        }
 
         @media (max-width: 768px) {
             .sidebar {
@@ -106,13 +105,7 @@
         <!-- SIDEBAR -->
         <div class="col-md-3 col-lg-2 sidebar">
 
-            <div class="position-relative d-inline-block mb-3">
-                <img src="user.png" class="profile-img">
-                <span class="notif-badge">4</span>
-            </div>
-
-            <h5 class="mb-0">Felica</h5>
-            <small class="text-light">felica@email.com</small>
+             <h3>SISTEM PENGADUAN SEKOLAH</h3>
 
             <div class="menu mt-5">
                 <a href="{{ route('dashboard') }}"
@@ -177,7 +170,7 @@
                         </tr>
                         @empty
                                     <div class="alert alert-danger">
-                                        Data Products belum Tersedia.
+                                        Pengaduan belum Tersedia.
                                     </div>
                                 @endforelse
                     </tbody>
